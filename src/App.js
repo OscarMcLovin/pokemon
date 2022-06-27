@@ -30,7 +30,7 @@ function App() {
   useEffect(() => {
     getAllPokemons()
 }, [])
-///
+
   return (
     <div className="app-container">
       <h1>Pokemon Evolution</h1>
